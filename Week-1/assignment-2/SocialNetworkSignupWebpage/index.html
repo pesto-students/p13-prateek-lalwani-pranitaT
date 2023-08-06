@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Social Network Signup</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+        }
+        .submit-btn {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="submit.js" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="about">About You:</label>
+                <textarea id="about" name="about" rows="3" cols="50"></textarea>
+            </div>
+            <div>
+                <label for="picture">Profile Picture:</label>
+                <input type="file" id="picture" name="picture">
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="Join">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
