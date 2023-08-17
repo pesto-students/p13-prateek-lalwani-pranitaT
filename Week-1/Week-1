@@ -1,1 +1,297 @@
+Assignment 1
+* What is a protocol stack, and how is it used in web development?
+* What are the different types of web servers, and how do they differ in terms of functionality and performance?
+* What is web hosting, and what are the different types of hosting services available for websites?
+* What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+* What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
 
+
+Assignment 2
+* Poem Webpage
+    Please Complete Below assignment and upload github link of that solution after completion
+    Create a webpage in a file called index.html that displays the poem below.
+
+    Use two paragraph tags for the stanzas and
+    tags where necessary to keep the correct formatting.
+    Use a third paragraph for the author and date, and enclose the author and date in a tag.
+    I'm Nobody! Who are you?
+
+    Are you - Nobody - Too?
+
+    Then there's a pair of us!
+
+    Don't tell! They'd banish us - you know!
+
+    How dreary - to be - Somebody!
+
+    How public - like a Frog -
+
+    To tell one's name - the livelong June - To an admiring Bog!
+
+    By Emily Dickinson (1891) 
+    
+    Instructions:
+
+    Add comments wherever required, Should follow HTML comments format
+    Follow HTML best practices
+    Your commit message should be meaningful
+    Your pull request should have meaningful description
+    Reachout to your mentor if required
+
+* Hometown Webpage
+    Please Complete Below assignment and upload github link of that solution after completion
+    Create a webpage about your hometown like the example below.
+
+
+
+    Hometown Name
+    Location
+    A brief description of the town's location goes here.
+
+    About
+    Subsection 1
+    A paragraph describing something about the hometown goes here.
+
+    Subsection 2
+    A paragraph describing something else about the hometown goes here.
+
+    Subsection 3
+    A paragraph describing another aspect of the hometown goes here.
+
+    Things To Do
+    Visit the historic landmarks.
+    Explore the beautiful parks and nature reserves.
+    Try out the local cuisine and restaurants.
+
+    Instructions:
+
+    Add comments wherever required, Should follow HTML comments format
+    Follow HTML best practices
+    Your commit message should be meaningful
+    Your pull request should have meaningful description
+    Reachout to your mentor if required
+
+
+* Your Favorite Musician Fan Webpage
+    Please Complete Below assignment and upload github link of that solution after completion
+    Create a webpage in a file called index.html about one of your favorite musicians, similar to the example below.
+
+
+
+    Use the following HTML containers:
+    "header" with "h1" tags that contain the musician's name
+    "main" with 2 paragraphs:
+    1st paragraph gives some background information
+    2nd paragraph links to at least one website about the musician
+    that names the webpage's creator
+
+* HTML Tables
+    Please Complete Below assignment and upload github link of that solution after completion
+    1. Create a table with 3 rows and 3 columns. The top row contains 1 cell that spans 3 columns. The leftmost cell on the next row spans 2 rows. All other cells span a single row and column.
+
+    Each cell has a number. The numbers can be put in a "h1" tag if desired. The image below shows what the table should look like using "h1" tags around the numbers.
+
+
+
+    1. Recreate the list shown in the image below: The outer list is an order list, and the nested lists are unordered.
+
+
+* Social Network Signup Webpage
+    Please Complete Below assignment and upload github link of that solution after completion
+    Add a web form to index.html as shown below that allows the user to enter personal information for joining a social network. The webpage uses CSS to align the form widgets vertically.
+
+
+
+    The form should:
+
+    Use the POST method and the "multipart/form-data" enctype
+    Submit to
+    Use a <label> for each form field and the label text shown in the image above
+    Use a <div> to surround each label and form widget and a
+    around the submit button
+    Use a text <input> with name and id "fullName" to get the user's name
+    Use a text <input> with name and id "email" to get the user's email address
+    Use a <textarea> with 3 rows, 50 columns, and name and id "about" to get a short description about the user
+    Use a text <input> with type "file" and name and id "picture" to get the user's image
+    Use a submit <input> button
+    Use the required attribute for name and email fields
+
+
+
+
+Assignment 3
+
+* Dev Tools
+    Please Complete Below assignment and upload github link of that solution after completion
+    ### Situation: You want to inspect the HTML and CSS code of a webpage.
+    ### Question: Which panel in Chrome DevTools should you use to inspect the DOM and CSS of a webpage?
+    ### Situation: You suspect that a particular JavaScript function is causing errors on a webpage.
+    ### Question: Which panel in Chrome DevTools should you use to debug the JavaScript code on a webpage?
+    ### Situation: You want to analyze the network traffic of a webpage and find out which requests are taking the longest time to load.
+    ### Question: Which panel in Chrome DevTools should you use to analyze the network requests and responses of a webpage?
+    ### Situation: You want to inspect and manipulate browser storage, such as cookies and local storage.
+    ### Question: Which panel in Chrome DevTools should you use to inspect and manipulate browser storage on a webpage?
+    ### Situation: You want to optimize the performance of a webpage and identify potential bottlenecks.
+    ### Question: Which panel in Chrome DevTools should you use to analyze the performance of a webpage and identify potential bottlenecks?
+    ### Situation: You want to test the security of a webpage and check if it has any vulnerabilities.
+    ### Question: Which panel in Chrome DevTools should you use to analyze the security of a webpage and identify potential vulnerabilities?
+    ### Situation: You want to view and modify the CSS styles of a webpage in real-time.
+    ### Question: Which panel in Chrome DevTools should you use to view and modify the CSS styles of a webpage in real-time?
+    ### Situation: You want to test how a webpage looks and behaves on different screen sizes.
+    ### Question: Which panel in Chrome DevTools should you use to test the responsiveness of a webpage on different screen sizes?
+    Instructions
+    Go to chrome dev tools and analyze every panel and answer the question
+    Go to panel and play around according to each situation mentioned
+
+
+* Gitlab
+    Please Complete Below assignment and upload github link of that solution after completion
+    Git Lab
+    Activity 1: Install git and play with a repository
+    https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+    Add a README.md (info about your repository for anyone to read) or any other file
+    Commit the file
+    GitHub
+    GitHub hosts repositories for you, so you and others can access them from anywhere.
+    It's a collaborative platform
+    Allows you to have docs/wiki, make issues (log features/bugs), pull requests and more
+    Activity 2: Make a GitHub account and push your local repo to GitHub
+    https://github.com/ [Build Status]
+    Activity 3: create a branch and push your changes to the branch
+    Branches are a way to separate your main code base from the code you are working on new content in. You can "check out" a branch to switch over and avoid pushing untested code into publication. Master is the main branch that is started on. Use git status to see what branch you are currently using.
+
+    ‐ Check to see which branch you are currently on.
+
+    $ git status
+    ‐ Creates a new branch.
+
+    $ git branch [branch-name]
+    ‐ Switches to a different branch.
+
+    $ git checkout [branch-name]
+    ‐ Combines git branch and git checkout into one command. It creates a new branch and switches to it.
+
+    $ git checkout -b [branch-name]
+    Add and commit any changes you have made to the local repositiory before you push to the remote one.
+
+    $ git add [file]
+    $ git add .
+    Commits all staged files with a message about changes made.
+
+    $ git commit -m "commit message"
+    ‐ The origin represents a remote name where you want to push changes
+
+    $ git push origin [branch-name]
+    Deletes branch
+
+    $ git branch -d [branch-name]
+    Final Activity - Make a PR to main branch
+    Make a pull request to the repository below with your name and GitHub info in the README.md using either GitHub or the command line
+
+
+* Gitlab Additional Assignment
+    Please Complete Below assignment and upload github link of that solution after completion
+    Advanced Level Hands-On Assignment for Mastering GitHub
+    Objective:
+    The objective of this assignment is to provide you with advanced hands-on experience with GitHub, including creating and managing branches, resolving conflicts, working with remote repositories, and using Git command line tools.
+
+    Instructions:
+    Step 1: Create a GitHub Account If you do not already have a GitHub account, create one at github.com.
+
+    Step 2: Create a Repository Create a new repository on GitHub by clicking on the “+” button on the top right corner of the screen and selecting “New repository” from the drop-down menu. Name your repository “GitHub-Advanced-Hands-On” and select “Public” as the repository type. Check the box that says “Initialize this repository with a README” and click on the “Create repository” button.
+
+    Step 3: Clone the Repository To clone the repository, go to the repository page on GitHub and click on the “Code” button. This will open a menu with a URL that you can use to clone the repository. Open a terminal window and navigate to the directory where you want to clone the repository. Use the following command to clone the repository:
+
+    git clone <repository URL>
+    Step 4: Create and Manage Branches Create a new branch called “dev” using the following command:
+
+    git branch dev
+    Switch to the new branch using the following command:
+
+    git checkout dev
+    Make changes to the “hello.txt” file by adding the following line to the end of the file:
+
+    This is a dev branch change.
+
+    Save the file and close it.
+
+    Step 5: Commit Changes to the Dev Branch
+
+    Add the changes to the dev branch and commit them using the following commands:
+
+    git add hello.txt
+    git commit -m "Add dev branch change to hello.txt"
+    Step 6: Push Changes to the Dev Branch Push the changes to the dev branch using the following command:
+
+    git push origin dev
+    Step 7: Resolve Conflicts Switch back to the main branch using the following command:
+
+    git checkout main
+    Make changes to the “hello.txt” file by adding the following line to the end of the file:
+
+    This is a main branch change.
+
+    Save the file and close it.
+
+    Try to merge the dev branch into the main branch using the following command:
+
+    git merge dev
+    You will get a conflict error because the same line has been modified in both branches. Open the “hello.txt” file and resolve the conflict by keeping both changes:
+
+    Hello, GitHub! This is a dev branch change. This is a main branch change.
+
+    Save the file and close it.
+
+    Add the resolved file to the commit using the following command:
+
+    git add hello.txt
+    Commit the changes using the following command:
+
+    git commit -m "Resolve conflict in hello.txt"
+    Step 8: Push Changes to the Main Branch Push the changes to the main branch using the following command:
+
+    git push origin main
+    Step 9: Work with Remote Repositories Create a new repository on your local machine using the following command:
+
+    git init
+    Add the remote repository using the following command:
+
+    git remote add origin <repository URL>
+    Fetch the changes from the remote repository using the following command:
+
+    git fetch
+    Create a new branch called “feature” and switch to it using the following commands:
+
+    git branch feature
+    git checkout feature
+    Make changes to the “hello.txt” file by adding the following line to the end of the file:
+
+    This is a feature branch
+
+    Step 10: Commit and Push Changes to the Feature Branch Add the changes to the feature branch and commit them using the following commands:
+
+    git add hello.txt
+    git commit -m "Add feature branch change to hello.txt"
+    Push the changes to the feature branch using the following command:
+
+    git push origin feature
+    Step 11: Create a Pull Request Go to the GitHub repository page and click on the “Pull requests” tab. Click on the “New pull request” button. Select the main branch as the base branch and the feature branch as the compare branch. Review the changes and click on the “Create pull request” button.
+
+    Step 12: Merge the Pull Request Review the pull request and click on the “Merge pull request” button to merge the changes into the main branch.
+
+    Step 13: Use Git Command Line Tools Open a terminal window and navigate to the directory where you cloned the repository. Use the following command to view the commit history:
+
+    git log
+    Use the following command to view the status of the repository:
+
+    git status
+    Use the following command to create a new branch and switch to it:
+
+    git checkout -b <new branch name>
+    Use the following command to delete a branch:
+
+    git branch -d <branch name>
+    Use the following command to revert to a previous commit:
+
+    git revert <commit hash>
+    Conclusion: Congratulations! You have successfully completed an advanced hands-on assignment for mastering GitHub. You have learned how to create and manage branches, resolve conflicts, work with remote repositories, and use Git command line tools. Keep practicing to become even more proficient in GitHub!
