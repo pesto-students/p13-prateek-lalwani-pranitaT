@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starting Lineup Form</title>
+</head>
+<body>
+  <h1>Starting Lineup</h1>
+  <form action="submit_form.php" method="POST">
+    <fieldset>
+      <legend>Status:</legend>
+        <p id="para">
+        <label><input type="radio" name="status" value="Draft" checked> Draft</label>
+        <label><input type="radio" name="status" value="Final"> Final</label>
+        </p>
+    </fieldset>
+    <p>
+      <label for="gameDate">Select Game Date:</label>
+      <select name="gameDate" id="gameDate">
+        <option value="March 20">March 20</option>
+        <option value="March 24">March 24</option>
+        <option value="April 2">April 2</option>
+        <option value="April 6">April 6</option>
+        <option value="April 13">April 13</option>
+      </select>
+    </p>
+    <fieldset>
+      <legend>Select Players:</legend>
+      <p>
+        <label><input type="checkbox" name="player" value="Aarav Agarwal"> Aarav Agarwal</label></br>
+        <label><input type="checkbox" name="player" value="Ava Johnson"> Ava Johnson</label></br>
+        <label><input type="checkbox" name="player" value="Julio Ortiz"> Julio Ortiz</label></br>
+        <label><input type="checkbox" name="player" value="Liam Rubio"> Liam Rubio</label></br>
+        <label><input type="checkbox" name="player" value="Emma Witherspoon"> Emma Witherspoon</label></br>
+      </p>
+    </fieldset>
+    <p>
+      <input type="submit" value="Submit">
+    </p>
+  </form>
+</body>
+</html>
