@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Add Review</title>
+</head>
+<body>
+  <header>
+    <h1>Restaurant Reviews</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="addreview.html">Add Review</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+        <h1>Add Review</h1>
+        <form id="review-form">
+            <label for="name">Name: <input type="text" id="name" name="name" required></label>
+            
+            
+            <label for="restaurant">Restaurant: 
+            <select id="restaurant" name="restaurant" required>
+                <option value="restaurant1">Main Street Cafe</option>
+                <option value="restaurant2">Greek House Cafe</option>
+            </select></label>
+            
+            <label for="date">Date of Visit: 
+            <input type="datetime-local" id="date" name="date" required></label>
+            
+            <label for="rating">Rating: 
+            <select id="rating" name="rating" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select></label>
+            
+            <label for="details">Details: 
+            <textarea id="details" name="details" rows="4" required></textarea></label>
+            
+            <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Restaurant Reviews</p>
+  </footer>
+</body>
+</html>
+<!-- block future dates-->

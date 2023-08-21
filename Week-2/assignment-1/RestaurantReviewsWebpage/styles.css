@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:  #6bc9fc;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color:  #6bc9fc;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .review {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+  }
+
+  .review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .review-text {
+    flex: 1;
+  }
+
+  .review-text h3 {
+    margin-top: 0;
+  }
+
+  .review-text p {
+    margin: 5px 0;
+  }
+
+  .review-rating {
+    font-size: 20px;
+    color: #ff9800;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="datetime-local"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
