@@ -28,6 +28,11 @@ p {
    border-radius: 5px;
 }
 
+p:hover {
+   color: skyblue;
+}
+
+
 a {
    font-size: 12px;
    text-decoration: none;
@@ -38,3 +43,6 @@ a {
 a:hover {
    color: skyblue;
 }
+
+
+/* pseudo class element */
