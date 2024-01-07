@@ -1,0 +1,12 @@
+/* BookList.css */
+.book-list {
+    list-style-type: square;
+  }
+
+.book-list-item {
+    color: #555; /* Medium gray text color */
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
